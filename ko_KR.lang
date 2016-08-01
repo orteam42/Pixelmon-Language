@@ -5555,11 +5555,55 @@ sendpixelmon.retrieved=%s! 돌아와!
 @Author Dayaffe
 //Blocks
 /*
+*   Pretty much same basic concept here. Middle one represents
+*   the item's blockName as defined and the first one "tile"
+*   shows it's referring to a block type. "Name" is just
+*   standing for its name.
+*/
+tile.anvil.name=모루
+tile.pc.name=PC
+tile.mossy rock.name =이끼 낀 바위
+tile.icy rock.name =얼음 바위
+tile.trade machine.name =전시회 기계
+tile.healer.name =치료기
+tile.fossil cleaner.name=화석 세척기
+tile.fossil machine.name=화석 기계
+tile.cloning machine.name=복제 기계
+tile.bauxite ore.name=알루미늄 광석
+tile.Fire Stone Ore.name=불의 돌 광석
+tile.Water Stone Ore.name=물의 돌 광석
+tile.Leaf Stone Ore.name=리프의 돌 광석
+tile.Thunder Stone Ore.name=천둥의 돌 광석
+tile.Sun Stone Ore.name=태양의 돌 광석
+tile.Dawn Stone Ore.name=각성의 돌 광석
+tile.pixelmonSpawner.name=포켓몬 스포너
+tile.master chest.name=마스터 체스트
+tile.poke chest.name=포켓 체스트
+tile.ultra chest.name=하이퍼 체스트
+tile.fossil.name=화석
+tile.uno shrine.name=프리저 신전 
+tile.dos shrine.name=썬더 신전 
+tile.tres shrine.name=파이어 선전 
+tile.apricorn tree.name=규토리 나무
+tile.mechanicalanvil.name=기계 모루
+tile.ranchblock.name=보금자리 블럭
+tile.leafstoneore_overlay.name=리프의 돌 광석 
+tile.null.name=숨겨진 압력 플레이트
+tile.templeBrick.name=사원 벽돌
+tile.templeBlock.name=사원 블록
+tile.templeStairs.name=사원 계단
+tile.templeBrickStairs.name=사원 벽돌 계단
+tile.templePillar.name=사원의 기둥
+tile.hiddenCube.name=숨겨진 큐브
+tile.hiddenIronDoor.name=숨겨진 철 문
+tile.hiddenWoodenDoor.name=숨겨진 나무 문
+tile.DawnDusk Ore.name=각성 / 어둠 광석
+tile.templePillar.Pillar.name=사원의 기둥
+tile.templePillar.BrokenPillar.name=깨진 기둥
+tile.PokeGift.name=포켓몬 선물
+tile.EventPokeGift.name=이벤트 포켓몬 선물
+tile.movementPlate.name=이동 플레이트
 
-Pretty much same basic concept here. middle one represents
-the items blockName as defined and the first one "tile"
-shows its referring to a block type. Name is just
-standing for its name. */ tile.anvil.name=모루 tile.pc.name=PC tile.mossy rock.name =이끼 바위 tile.icy rock.name =얼음 바위 tile.trade machine.name =전시회 기계 tile.healer.name =힐러 tile.fossil cleaner.name=화석 청소기 tile.fossil machine.name=화석 기계 tile.cloning machine.name=복제 기계 tile.bauxite ore.name=알루미늄 광석 tile.Fire Stone Ore.name=불의 돌 광석 tile.Water Stone Ore.name=물의 돌 광석 tile.Leaf Stone Ore.name=리프의 돌 광석 tile.Thunder Stone Ore.name=천둥의 돌 광석 tile.Sun Stone Ore.name=태양의 돌 광석 tile.Dawn Stone Ore.name=각성의 돌 광석 tile.pixelmonSpawner.name=포켓몬 스포너 tile.master chest.name=마스터 체스트 tile.poke chest.name=포켓 체스트 tile.ultra chest.name=하이퍼 체스트 tile.fossil.name=화석 tile.uno shrine.name=프리저 신전 tile.dos shrine.name=썬더 신전 tile.tres shrine.name=파이어 선전 tile.unownblock_1.A.name=Unown A tile.unownblock_1.B.name=Unown B tile.unownblock_1.C.name=Unown C tile.unownblock_1.D.name=Unown D tile.unownblock_1.E.name=Unown E tile.unownblock_1.F.name=Unown F tile.unownblock_1.G.name=Unown G tile.unownblock_1.H.name=Unown H tile.unownblock_1.I.name=Unown I tile.unownblock_1.J.name=Unown J tile.unownblock_1.K.name=Unown K tile.unownblock_1.L.name=Unown L tile.unownblock_1.M.name=Unown M tile.unownblock_1.N.name=Unown N tile.unownblock_1.O.name=Unown O tile.unownblock_1.P.name=Unown P tile.unownblock_2.Q.name=Unown Q tile.unownblock_2.R.name=Unown R tile.unownblock_2.S.name=Unown S tile.unownblock_2.T.name=Unown T tile.unownblock_2.U.name=Unown U tile.unownblock_2.V.name=Unown V tile.unownblock_2.W.name=Unown W tile.unownblock_2.X.name=Unown X tile.unownblock_2.Y.name=Unown Y tile.unownblock_2.Z.name=Unown Z tile.unownblock_2.!.name=Unown ! tile.unownblock_2.?.name=Unown ? tile.unownblock_2._.name=Unown tile.templeBrick.name =사원 벽돌 tile.templeBlock.name =사원 블록 tile.templeStairs.name =사원 계단 tile.templeBrickStairs.name =사원 벽돌 계단 tile.templePillar.name =사원의 기둥 tile.hiddenCube.name =숨겨진 큐브 tile.hiddenIronDoor.name =숨겨진 철 문 tile.hiddenWoodenDoor.name =숨겨진 나무 문 tile.DawnDusk Ore.name =각성 / 어둠 광석
 ability.Adaptability.name=적응력
 ability.Adaptability.description=타입이 같은 기술의 위력이 올라간다.
 ability.Aerilate.name=스카이스킨
